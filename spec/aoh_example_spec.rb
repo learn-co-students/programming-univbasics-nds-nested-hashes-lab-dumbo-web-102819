@@ -12,10 +12,10 @@ describe 'When a learning to build AoH,' do
 
   it 'the literal_aoh method returns an AoH made made from a literal with sorted elements' do
     result = [{:name=>"Don Gately", :occupation=>"Live-in Staff"},
-       {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},
-       {:name=>"Pat Monteseian", :occupation=>"Staff"},
-       {:name=>"Kate Gompert", :occupation=>"None"},
-       {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}]
+      {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},
+      {:name=>"Pat Monteseian", :occupation=>"Staff"},
+      {:name=>"Kate Gompert", :occupation=>"None"},
+      {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}]
     expect(literal_aoh).to eq(result)
   end
 end
